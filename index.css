@@ -1,0 +1,15 @@
+label
+{
+text-align: center;
+}
+.ui-content *[data-role=header]
+{
+background-color:black;
+}
+.done{
+    text-decoration: line-through;
+}
+#footer
+{
+    text-align: center;
+}

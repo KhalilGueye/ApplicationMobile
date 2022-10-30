@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>ToDoList App</title>
+    <link rel="stylesheet" href="lib/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="lib/jquery.js"></script>
+    <script src="lib/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/index.js"></script>
+<head>
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h2>Task Management</h2>
+        </div>
+        <div role="main" class="ui-content">
+            <label for="task">Ajouter une tâche</label>
+                <input type="text" id="task">
+                <input type="button" value="Ajouter" onclick="addTask()">
+                <input type="button" value="Réinitialiser" onclick="reinitialiser()">
+                <ul id="taskList" data-role="listview" data-inset="true">
+                </ul>
+        </div>
+        <div data-role="footer" data-position="fixed" data-inset="center" id="footer">
+            Khalil GUEYE &copy; Octobre 2022
+        </div>
+    </div>
+</body>
+</html>
